@@ -24,7 +24,7 @@ In traditional finance, credit scores are centralized, opaque, and often inacces
 
 ## 🌐 Live Site
 
-Experience BitCred in action: [Bitcred-webapp](https://zolodix.com)
+Experience BitCred in action: [Bitcred Demo](https://zolodix.com)
 
 ## 🛠️ Tech Stack
 
