@@ -20,7 +20,7 @@ In traditional finance, credit scores are centralized, opaque, and often inacces
 
 ## 🎬 Demo Video
 
-▶️ [Watch the full demo on YouTube](https://youtu.be/demo-link)
+▶️ [Watch the full demo on YouTube](https://youtu.be/t43UKfB5ysg?si=1raY34XI5_u7Lbgm)
 
 ## 🌐 Live Site
 
