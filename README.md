@@ -197,4 +197,4 @@ BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All c
 
 ---
 
-Made with ❤️ by the Tafsir Raza
+Made with ❤️ by the BitCred Team
