@@ -193,7 +193,7 @@ bitcred/
 
 ## 🏆 Hackathon Information
 
-BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All code was written during the hackathon timeline after June 10, 2025, when our team joined the competition. The project represents our vision for a privacy-preserving, decentralized credit reputation system built on Bitcoin.
+BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All code was written during the hackathon timeline after June 10, 2025, when i joined the competition. The project represents our vision for a privacy-preserving, decentralized credit reputation system built on Bitcoin.
 
 ---
 
