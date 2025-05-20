@@ -153,11 +153,11 @@ To deploy to Vercel:
 Create a `.env.local` file with the following variables:
 
 ```plaintext
-# Client-side environment variables (must be prefixed with NEXT_PUBLIC_)
+# Client-side environment variables
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url_here
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
-# Server-side environment variables (do not prefix with NEXT_PUBLIC_)
+# Server-side environment variables 
 REBAR_API_KEY=your_rebar_api_key_here
 API_KEY=your_api_key_here
 ```
@@ -197,4 +197,4 @@ BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All c
 
 ---
 
-Made with ❤️ by the BitCred Team
+Made with ❤️ by the Tafsir Raza
