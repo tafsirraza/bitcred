@@ -61,10 +61,10 @@ Experience BitCred in action: [Bitcred Demo](https://zolodix.com)
 
 BitCred operates through a four-step process:
 
-1. **Wallet Analysis**: Users input their Bitcoin wallet address for analysis. BitCred securely fetches transaction history, volume, and age data through the Rebar Labs API.
-2. **Score Calculation**: The system applies a proprietary algorithm to calculate a credit score (0-850) based on transaction patterns, wallet age, and activity levels.
+1. **Wallet Analysis**: after sign up & sign in Users input their Bitcoin wallet address for analysis. BitCred securely fetches transaction history, volume, and age data through the Rebar Labs API.
+2. **Score Calculation**: The system applies a proprietary algorithm build by us to calculate a credit score (0-850) based on transaction patterns, wallet age, and activity levels.
 3. **ZK Proof Generation**: BitCred generates a zero-knowledge proof that cryptographically verifies the score's authenticity without revealing the underlying wallet data.
-4. **Verifiable Credential**: Users receive a W3C Verifiable Credential containing their credit score and ZK proof, which can be shared with third parties while maintaining privacy.
+4. **Verifiable Credential**: Users receive a W3C Verifiable Credential in JSON containing their credit score and ZK proof, which can be shared with third parties while maintaining privacy.
 
 Third parties can verify the credential's authenticity through BitCred's public verification page without accessing the user's private wallet data.
 
@@ -82,9 +82,9 @@ BitCred follows a modern, serverless architecture:
          │                       │
          ▼                       ▼
 ┌─────────────────┐     ┌─────────────────┐
-│                 │     │                 │
-│  ZK Proof Gen   │     │  Supabase       │
-│                 │     │  (Auth & DB)    │
+│                    |     │          │
+│  ZK Proof Gen      │     │  Supabase   │
+│                    │     │  (Auth & DB)        │
 └─────────────────┘     └─────────────────┘
 ```
 
@@ -93,7 +93,7 @@ BitCred follows a modern, serverless architecture:
 ### Prerequisites
 
 - Node.js 18.x or higher
-- npm or yarn
+- npm or pnpm
 - Supabase account
 - Rebar Labs API key
 
@@ -125,8 +125,8 @@ cp .env.example .env.local
 4. **Set up Supabase**:
 
 - Create a new Supabase project
-- Run the SQL commands in `schema.sql` to create the necessary tables
-- Set up Row Level Security policies as specified in the file
+- Run the SQL commands in `schema.sql` to create the necessary tables (copy the schema.sql file code from repo and paste it on supabase SQL editor)
+- Set up Row Level Security policies as specified in the file (automatically it will generate when run code in SQL editor).
 
 5. **Run the development server**:
 
@@ -134,6 +134,8 @@ cp .env.example .env.local
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
 ```
 
 6. **Open your browser**:
@@ -193,7 +195,7 @@ bitcred/
 
 ## 🏆 Hackathon Information
 
-BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All code was written during the hackathon timeline after June 10, 2025, when i joined the competition. The project represents our vision for a privacy-preserving, decentralized credit reputation system built on Bitcoin.
+BitCred was built for the Bitcoin Hackathon that started on April 7, 2025. All code was written during the hackathon timeline after May 10, 2025, when i joined the competition. The project represents our vision for a privacy-preserving, decentralized credit reputation system built on Bitcoin.
 
 ---
 
