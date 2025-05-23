@@ -61,7 +61,7 @@ Experience BitCred in action: [Bitcred Demo](https://zolodix.com)
 
 BitCred operates through a four-step process:
 
-1. **Wallet Analysis**: after sign up & sign in Users input their Bitcoin wallet address for analysis. BitCred securely fetches transaction history, volume, and age data through the Rebar Labs API.
+1. **Wallet Analysis**: after sign up Users need to verify its account via link sent on his mail then signin amd input their Bitcoin wallet address for analysis. BitCred securely fetches transaction history, volume, and age data through the Rebar Labs API.
 2. **Score Calculation**: The system applies a proprietary algorithm build by us to calculate a credit score (0-850) based on transaction patterns, wallet age, and activity levels.
 3. **ZK Proof Generation**: BitCred generates a zero-knowledge proof that cryptographically verifies the score's authenticity without revealing the underlying wallet data.(Currently revealing the Wallet address in json file but in real world product it will be remove).
 4. **Verifiable Credential**: Users receive a W3C Verifiable Credential in JSON containing their credit score and ZK proof, which can be shared with third parties while maintaining privacy.
